@@ -8,7 +8,7 @@ var maxCanvas = {
 // Used only once
 function setup(){
     frameRate(10);
-    createCanvas(maxCanvas.width, maxCanvas.height);
+    createCanvas(windowWidth, windowHeigh);
     background(0);
     myCircle= new circleObj();
 
